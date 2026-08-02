@@ -88,7 +88,11 @@ iot-default-password-risk/
 │   └── run_lab.txt
 │
 ├── data/
-│   └── test_cases.xlsx
+│   └── asset_inventory.xlsx
+│   ├── bang_nguyen_nhan_hau_qua.xlsx
+│   ├── checklist_password.xlsx
+│   ├── risk_matrix.xlsx
+│   └── stride_matrix.xlsx
 │
 ├── results/
 │   ├── screenshots/
