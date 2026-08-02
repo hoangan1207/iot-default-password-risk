@@ -33,9 +33,9 @@ Môi trường nghiên cứu sử dụng **OWASP IoTGoat** kết hợp với **D
 | Thành phần | Phiên bản |
 |------------|-----------|
 | Windows | 11 24H2 |
-| Docker Desktop | 28.x |
+| Docker Desktop | 28.6 |
 | OWASP IoTGoat | Latest |
-| Git | 2.x |
+| Git | 2.6 |
 | GitHub | Cloud |
 | Draw.io | Online |
 | Microsoft Word | Microsoft 365 |
@@ -167,15 +167,15 @@ ssh root@localhost -p 2222
 
 1. OWASP Internet of Things Project
 
-https://owasp.org/www-project-internet-of-things/
+https://github.com/OWASP/www-project-internet-of-things
 
 2. OWASP IoTGoat
 
 https://github.com/OWASP/IoTGoat
 
-3. OWASP IoT Security Testing Guide (ISTG)
+3. OWASP IoT Security Verification Standard (ISVS)
 
-https://owasp.org/www-project-istg/
+https://github.com/OWASP/IoT-Security-Verification-Standard-ISVS
 
 4. William Stallings.
 Network Security Essentials: Applications and Standards.
@@ -191,14 +191,13 @@ Cryptography and Network Security: Principles and Practice.
 
 **Họ và tên:** Huỳnh Bùi Hoàng Ân
 
+**MSSV:** 231A010372 
+
+**Môn:** Bảo Mật IoT
+
 **Chuyên ngành:** An toàn thông tin
 
-**Trường:** (Điền tên trường)
+**Trường:** Đại Học Văn Hiến
 
 ---
 
-# Giấy phép
-
-Repository được xây dựng phục vụ mục đích học tập và nghiên cứu.
-
-Không sử dụng các nội dung trong repository này để khai thác trái phép các hệ thống thông tin hoặc thiết bị IoT ngoài phạm vi được cho phép.
