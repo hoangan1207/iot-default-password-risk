@@ -1,3 +1,4 @@
-CONTAINER ID
-STATUS
-PORTS
+C:\Users\Hi>docker ps
+
+CONTAINER ID   IMAGE                         COMMAND                CREATED        STATUS        PORTS                          NAMES
+89daaf514b30   iotgoat-qemu-iotgoat:latest   "/opt/entrypoint.sh"   9 minutes ago  Up 9 minutes  2222/tcp, 4443/tcp, 8080/tcp   affectionate_cohen
