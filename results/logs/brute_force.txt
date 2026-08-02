@@ -1,1 +1,54 @@
+===========================================
+Brute Force Test Log
+===========================================
 
+Date: 31/07/2026
+
+Target:
+OWASP IoTGoat Web Login
+
+URL:
+http://localhost:8080
+
+Test Case:
+TC-03 - Brute Force Authentication Test
+
+Test Description:
+Thực hiện nhiều lần đăng nhập với mật khẩu không chính xác để kiểm tra cơ chế giới hạn số lần đăng nhập.
+
+Attempts:
+
+Attempt 1
+Username: admin
+Password: 123456
+Result: Login failed
+
+Attempt 2
+Username: admin
+Password: password
+Result: Login failed
+
+Attempt 3
+Username: admin
+Password: admin123
+Result: Login failed
+
+Attempt 4
+Username: admin
+Password: test123
+Result: Login failed
+
+Attempt 5
+Username: admin
+Password: abc123
+Result: Login failed
+
+Observation:
+- Hệ thống vẫn cho phép tiếp tục đăng nhập.
+- Không xuất hiện cơ chế khóa tài khoản.
+- Không có thời gian chờ giữa các lần đăng nhập.
+- Không hiển thị cảnh báo sau nhiều lần đăng nhập sai.
+
+Conclusion:
+OWASP IoTGoat không triển khai cơ chế chống Brute Force.
+Thiết bị có nguy cơ bị tấn công dò mật khẩu nếu sử dụng mật khẩu yếu hoặc mật khẩu mặc định.
