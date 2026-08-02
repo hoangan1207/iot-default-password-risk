@@ -185,6 +185,8 @@ Network Security Essentials: Applications and Standards.
 Cryptography and Network Security: Principles and Practice.
 8th Edition.
 
+6. Charlie Kaufman, Radia Perlman, Mike Speciner.
+Network Security: Private Communication in a Public World.
 ---
 
 # Thành viên thực hiện
