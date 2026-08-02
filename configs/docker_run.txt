@@ -1,0 +1,6 @@
+docker run -d ^
+--name iotgoat ^
+-p 8080:8080 ^
+-p 4443:4443 ^
+-p 2222:2222 ^
+iotgoat-qemu-iotgoat:latest
