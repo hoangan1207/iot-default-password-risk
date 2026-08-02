@@ -1,5 +1,21 @@
-root@localhost
+SSH Login Log
 
-BusyBox
+Command:
 
-uid=0(root)
+ssh -o HostKeyAlgorithms=+ssh-rsa ^
+-o PubkeyAcceptedAlgorithms=+ssh-rsa ^
+-o KexAlgorithms=+diffie-hellman-group14-sha1 ^
+root@localhost -p 2222
+
+Password:
+iotgoathardcodedpassword
+
+Login successful.
+
+BusyBox v1.27.2 ()
+
+root@IoTGoat:~#
+
+whoami
+
+root
