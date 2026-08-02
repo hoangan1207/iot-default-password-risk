@@ -38,7 +38,7 @@ Môi trường nghiên cứu sử dụng **OWASP IoTGoat** kết hợp với **D
 | Git | 2.6 |
 | GitHub | Cloud |
 | Draw.io | Online |
-| Microsoft Word | Microsoft 365 |
+| Microsoft Word | Microsoft 21 |
 
 ---
 
