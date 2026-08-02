@@ -75,12 +75,11 @@ iot-default-password-risk/
 ├── README.md
 │
 ├── report/
-│   ├── BaoCao.docx
-│   └── BaoCao.pdf
+│   ├── 231A010372_HuynhBuiHoangAn_DeTai22_TieuLuan_CuoiKy.docx
+│   └── 231A010372_HuynhBuiHoangAn_DeTai22_TieuLuan_CuoiKy.pdf
 │
 ├── slides/
-│   ├── BaoCao.pptx
-│   └── BaoCao.pdf
+│     
 │
 ├── configs/
 │   └── docker_run.txt
